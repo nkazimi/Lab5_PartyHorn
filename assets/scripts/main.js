@@ -1,9 +1,10 @@
-const radioSound = document.getElementsByName('radio-sound') //input audio
 const hornSound = document.getElementById('horn-sound')
-const honkButton = document.getElementById('honk-btn')
 const volumeNumber = document.getElementById('volume-number')
-const volumeSlider = document.getElementById('volume-slider')
+const honkButton = document.getElementById('honk-btn')
 const audioSelection = document.getElementById('audio-selection')
+const radioSound = document.getElementsByName('radio-sound') 
+const volumeSlider = document.getElementById('volume-slider')
+
 
 audioSelection.onchange = () => {
   handleAudioSelectionChange()
