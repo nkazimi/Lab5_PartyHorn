@@ -1,7 +1,7 @@
 name: Git Comment
 on:
   issues:
-  types: [opened]
+    types: [opened]
   
 jobs:
   comment:
